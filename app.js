@@ -1,5 +1,5 @@
 'use strict';
-const $=s=>document.querySelector(s);let data,marker='16S',panel='Seasonal patterns';
+const $=s=>document.querySelector(s);let data,marker='16S',panel='Top 15 & prevalence';
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function micro(){const text={'Top 15 & prevalence':'Top genera, balanced prevalence, unresolved lineages and Other','Seasonal patterns':'Campaign-balanced seasonal composition','Site comparisons':'Shared-campaign contrasts and repeated “detected only at this site” records','ASV drill-down':'ASV taxonomy, reviewed annotations and identification limits'};$('#micro').innerHTML=`<span class="tag">${marker} · UNAVAILABLE</span><h3>${text[panel]}</h3><p>The export workflow is present, but completed real-data exports were not committed at the inspected revision. No abundance values or taxon rankings are inferred here.</p><p class="small">Requires a verified COMPLETE marker, source manifests, coverage and exclusion audits. ${marker==='ITS'?'Zymoseptoria species remains unresolved; reviewed group labels will not replace formal species assignments.':''}</p>`;}
 function chart(rows,key,label,color,win,visit,compact=false,limits=null){
