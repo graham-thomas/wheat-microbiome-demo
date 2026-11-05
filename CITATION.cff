@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this demo when reusing it; cite HadUK-Grid separately for weather data."
+title: "Wheat Microbiome Explorer: synthetic demonstration"
+type: software
+version: "0.21-demo"
+authors:
+  - family-names: Thomas
+    given-names: Graham
+license: MIT
+abstract: "Interactive synthetic wheat microbiome demonstration with real public HadUK-Grid weather. Biological values are illustrative. Data and third-party licences are documented separately."

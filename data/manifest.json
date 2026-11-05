@@ -1,0 +1,7 @@
+{
+  "weather": "Real Met Office HadUK-Grid v1.3.2.ceda outputs; weather values and dates retained unchanged; regional identifiers relabelled Bridgend to Swindon.",
+  "biology": "Synthetic fixtures, seed 20261102; no project biological observations or fitted results.",
+  "doi": "10.5285/789b3065d74a4c948ab05d33556c86d0",
+  "licence": "Open Government Licence v3.0",
+  "dates": "Weather reference dates, not evidence of actual sampling of the synthetic communities."
+}

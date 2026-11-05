@@ -1,0 +1,12 @@
+{
+  "baseline": [
+    1991,
+    2020
+  ],
+  "source_release": "v1.3.2.ceda",
+  "doi": "10.5285/789b3065d74a4c948ab05d33556c86d0",
+  "grid_km": 1,
+  "source_files": 723,
+  "note": "Daily points require 30 years; incomplete calendar dates are gaps. Cross-year windows use the baseline sampling year, so may include December 1990.",
+  "identifiers": "Generic demo regional identifiers; numeric outputs unchanged."
+}
